@@ -38,3 +38,18 @@ for (var i = 0; i < max.length; i++) {
 console.log(max[0]);
 
 /*---max---*/
+
+/*---min---*/
+
+var min = [1, 2, 3, 4];
+
+for (var i = 0; i < min.length; i++) {
+    if(min[i] < min[0]){
+        min[0] = min[i];
+    }
+
+}
+console.log(min[0]);
+
+
+/*---min---*/
