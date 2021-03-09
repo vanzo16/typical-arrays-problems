@@ -22,3 +22,19 @@ const result = average( [ 1, 2, 3, 4] ); // 2,5
 console.log(result);
 
 /*---avg---*/
+
+
+
+/*---max---*/
+
+var max = [1, 2, 3, 4];
+
+for (var i = 0; i < max.length; i++) {
+    if(max[i] > max[0]){
+        max[0] = max[i];
+    }
+ 
+}
+console.log(max[0]);
+
+/*---max---*/
